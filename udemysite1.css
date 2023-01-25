@@ -1,0 +1,182 @@
+.name{
+    background-color:#E4f9f5;
+    padding-top: 70px;
+    
+}
+h1{
+    font-size: 90px;
+    margin-top: 30px;
+    font-family: 'sacramento',cursive;
+    color:#66BFBf;
+}
+
+body{
+    margin: 0px;
+} 
+.cloud{
+    position: relative;
+    right:20px;
+    bottom:300px;
+}
+.cloud1{
+  position: relative;
+  left:290px;
+}
+body{
+    font-family: 'merriweather',serif;
+    text-align: center;
+    color: #40514E;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color:#66BFBf;
+   padding-bottom:10px ;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+/* font-size:1em;
+1em=16px;
+16px=100%; */
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.skill1{
+    float: right;
+    /* position: absolute;
+    right:16%*/
+}
+.skill2{
+    float: left;
+    padding-right: 30px;
+}
+.profile{
+    margin-top: 80px;
+}
+.hr1{
+    border-style: none;
+    border-top: 10px dotted #dff3f3;
+    width: 90px;
+    margin-top:60px;
+}
+.contact-me{
+    margin-top:90px;
+    text-align: center;
+}
+.btn{
+    margin-top:40px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hr2{
+    border-style: none;
+    border-top: 10px dotted #dff3f3;
+    width: 90px;
+}
+.bottom-container{
+    margin-top: 100px;
+    background-color: #66BFBF;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.btndiv{
+    width: 150px;
+    height:40px;
+    padding: 20px 20px 0px 20px;
+    background-image: linear-gradient(#11cdd4,#11999e);
+    border-radius: 9px;
+}
+.btndiv:hover{
+    background-image: linear-gradient(#30e3cb,#2bc4ad);
+}
+a{
+    color: #0b8e93;
+    text-decoration:none ;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.mount{
+    position: relative;
+}
+
+@media (max-width:836px)
+{
+.cloud{
+    bottom: 138px;
+    right: 0px;
+}
+.cloud1{
+ left:140px;
+}
+.mount{
+    width: 300px;
+    right: 50px;
+}
+h1{
+    font-size: 65px;
+}
+h2{
+    font-size: 19px;
+}
+.comp1{
+    width: 185px;
+}
+}
+@media (max-width:520px){
+.myintro1{
+    width: 253px;
+    margin: auto;
+}
+}
+@media(max-width:1116px){
+ .skill1{
+    float:none;
+    height: 70%;
+    width: 70%;
+
+ }
+ .skill2{
+    float:none;
+    height: 70%;
+    width: 70%;
+
+ }
+ .skill-row{
+    text-align: center;
+    margin-top: 40px;
+ }
+ h3{
+    font-size: 14px;
+
+ }
+ .footpara{
+    font-size: 10px;
+ }
+ .contact-me{
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+.bottom-container{
+  margin-top:40px
+}
+.btndiv{
+    width: 130px;
+    height:20px;
+    padding: 20px 20px 15px 20px;
+    background-image: linear-gradient(#11cdd4,#11999e);
+    border-radius: 9px;
+}
+.linkpara{
+    font-size: small;
+}
+}
